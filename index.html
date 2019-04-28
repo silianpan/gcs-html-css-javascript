@@ -1,0 +1,47 @@
+<!-- 说明当前是html的文档 -->
+<!DOCTYPE html>
+<!-- html文件的根标签 -->
+<html>
+  <!-- html的头标签,内部放的是属性相关 -->
+  <head>
+    <!-- 指明编码 -->
+    <meta charset="UTF-8" />
+    <!-- 设置当前文档的标题 -->
+    <title>html页面</title>
+    <!-- 导入外部css -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- 导入外部js -->
+    <script type="text/javascript" src="libs/jquery-3.4.0.min.js"></script>
+    
+  </head>
+  <!-- 体标签,放到是设置的内容 -->
+  <body>
+    <!-- font标签     可以通过16进制的数设置颜色(RGBA模式)  
+      R:red   G:green    B:blue    A:alpha(透明度)
+      [0,255]    [0,255]    [0,255]   [0,1]
+    -->
+    <font color="#8E888E" size="60">字体及颜色</font>
+
+    <!-- 标题标签专门用来设置标题的,字号是固定,字体默认是加粗的 -->
+    <h1>标题1</h1>
+    <h2>标题2</h2>
+    <h3>标题3</h3>
+    <h4>标题4</h4>
+    <h5>标题5</h5>
+    <h6>标题6</h6>
+
+    <!-- 特殊字符 -->
+    <font> &lt;字体特殊字符&gt; </font>
+
+    <h1>Python编程学习</h1>
+    <p>人生苦短，我用Python</p>
+    <button>隐藏文本</button>
+  </body>
+
+  <!-- <script type="text/javascript">
+    $('button').on('click', function() {
+      $('p').css('opacity', 0);
+    });
+  </script> -->
+  <script type="text/javascript" src="index.js"></script>
+</html>
