@@ -25,10 +25,10 @@ $(document).ready(function() {
         ret = '向下';
         break;
     }
-
-    document.getElementById('eventTest').innerHTML = ret;
     if (e.ctrlKey && e.altKey && e.keyCode == 77) {
       alert('刚刚按下的是 ctrl + alt + m 组合键');
     }
+
+    document.getElementById('eventTest').innerHTML = ret;
   };
 });
